@@ -9,8 +9,33 @@ import SwiftUI
 
 struct FeedView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            ScrollView {
+                LazyVStack(spacing: 16) {
+                    ForEach(Post.MOCK_POST) { post in
+                        FeedCell(post: post)
+                        Divider()
+                    }
+                }
+                .padding(.top, 8)
+            }
+            .navigationTitle("Feed")
+            .navigationBarTitleDisplayMode(.inline)
+            .toolbar(content: {
+                ToolbarItem(id: "Message", placement: .navigationBarTrailing) {
+                    Image(systemName: "paperplane")
+                }
+                ToolbarItem(id: "Message", placement: .navigationBarLeading) 
+                {
+                    Image("instagram")
+                        .resizable()
+                        .scaledToFill()
+                        .frame(height: 44)
+                }
+            })
+        }
     }
+        
 }
 
 #Preview {

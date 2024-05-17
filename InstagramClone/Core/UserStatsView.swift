@@ -8,11 +8,20 @@
 import SwiftUI
 
 struct UserStatsView: View {
+    let count: Int
+    let title: String
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Text("\(count)")
+                .font(.footnote)
+                .fontWeight(.semibold)
+            
+            Text(title)
+                .font(.footnote)
+        }
     }
 }
 
 #Preview {
-    UserStatsView()
+    UserStatsView(count: 3, title: "Posts")
 }
