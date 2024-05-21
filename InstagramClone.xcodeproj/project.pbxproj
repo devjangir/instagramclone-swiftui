@@ -25,6 +25,8 @@
 		9049F8342BF7571600BF9629 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9049F8332BF7571600BF9629 /* User.swift */; };
 		9049F8362BF75C4E00BF9629 /* CurrentUserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9049F8352BF75C4E00BF9629 /* CurrentUserProfileView.swift */; };
 		9049F8382BF75F5A00BF9629 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9049F8372BF75F5A00BF9629 /* Post.swift */; };
+		90F213322BFCA19F00852810 /* UploadPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F213312BFCA19F00852810 /* UploadPost.swift */; };
+		90F213342BFCA5E100852810 /* UploadPostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F213332BFCA5E100852810 /* UploadPostViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +49,8 @@
 		9049F8332BF7571600BF9629 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		9049F8352BF75C4E00BF9629 /* CurrentUserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentUserProfileView.swift; sourceTree = "<group>"; };
 		9049F8372BF75F5A00BF9629 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		90F213312BFCA19F00852810 /* UploadPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPost.swift; sourceTree = "<group>"; };
+		90F213332BFCA5E100852810 /* UploadPostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPostViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +183,8 @@
 		90165E042BF21D0600B3FB44 /* UploadPost */ = {
 			isa = PBXGroup;
 			children = (
+				90F213312BFCA19F00852810 /* UploadPost.swift */,
+				90F213332BFCA5E100852810 /* UploadPostViewModel.swift */,
 			);
 			name = UploadPost;
 			sourceTree = "<group>";
@@ -296,9 +302,11 @@
 				90165DEC2BF21AD600B3FB44 /* InstagramCloneApp.swift in Sources */,
 				90165E1E2BF366A700B3FB44 /* TextFieldModifier.swift in Sources */,
 				90165E142BF3397900B3FB44 /* SearchView.swift in Sources */,
+				90F213342BFCA5E100852810 /* UploadPostViewModel.swift in Sources */,
 				9049F8382BF75F5A00BF9629 /* Post.swift in Sources */,
 				90165E092BF2218B00B3FB44 /* MainTabView.swift in Sources */,
 				90165E0E2BF2364200B3FB44 /* UserStatsView.swift in Sources */,
+				90F213322BFCA19F00852810 /* UploadPost.swift in Sources */,
 				90165E1A2BF3631E00B3FB44 /* AddEmailView.swift in Sources */,
 				90165E102BF3338100B3FB44 /* FeedCell.swift in Sources */,
 			);
